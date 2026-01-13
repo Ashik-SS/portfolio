@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card button:hover{
+            color: black;
+            background-color: orange;
+
+        }
+        .card button:active{
+            transform: scale(0.95);
+        }
+        .card input:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+        .card li:first-child{
+            font-weight: bold;
+            color: green;
+        }
+
+        .card a:visited{
+            color:rgb(39, 8, 63);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+  <h2>John Doe</h2>
+
+  <a href="https://example.com">View Profile</a>
+
+  <ul>
+    <li>UI Design</li>
+    <li>UX Research</li>
+    <li>Frontend</li>
+  </ul>
+
+  <input type="text" placeholder="Write a comment">
+
+  <button>Follow</button>
+</div>
+    
+</body>
+</html>

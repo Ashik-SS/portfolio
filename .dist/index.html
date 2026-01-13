@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Ashik <span>S.S</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#services">Skills</a>
+            <a href="#contact">Contacts</a>
+            
+            
+
+
+        </nav>
+
+        <button class="gradient-btn">Contact Me </button>
+
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Ashik!</span></h1>
+            <h3>
+                I'm <span>Web Developer</span>
+            </h3>
+            <p>Software Engineer from Code Wild Tech.</p>
+
+            <div class="social-icon">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="contact" class="btn">Download CV</a>
+            </div>
+
+        </div>
+
+        <div class="home-img">
+            <img src="images/image.jpg" alt="">
+        </div>
+    </section>
+<!--
+    <section class="about" id="about">
+        <div class="home-img">
+            <img src="image.jpg" alt="">
+        </div>
+    
+        <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>I’m Ashik, a passionate Software Developer focused on building clean, responsive, and user-friendly web applications. I specialize in React JS and enjoy turning ideas into fast, functional digital experiences. </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    </section>
+
+    
+-->
+
+    <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="edu-container" style="margin-top: -200px;">
+
+        <div class="edu-box">
+            <h3>Diploma in Computer Engineering</h3>
+            <span class="year">2021 - 2024</span>
+            <p>CGPA : 6.95</p>
+        </div>
+
+        <div class="edu-box">
+            <h3>Vocational Higher Secondary School</h3>
+            <span class="year">2019 - 2021</span>
+            <p></p>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="services" id="services">
+        <h2 class="heading">Skills</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI  /  UX Design</h4>
+                    <p>I design clean, modern, and user-focused interfaces by understanding user needs, creating intuitive layouts, and crafting visually appealing designs that improve usability, enhance engagement, and deliver a seamless and enjoyable digital experience across all devices. </p>
+                </div>
+                <div class="skill-icons">
+                    <i class="bx bxl-figma"></i>
+                    <i class="bx bxl-sketch"></i>
+                    <i class="bx bxl-dribbble"></i>
+                    <i class="bx bxl-adobe"></i>
+                </div>
+
+            </div>
+
+           <div class="services-box">
+    <div class="services-info">
+        <i class="bx bx-code-alt"></i>
+        <h4>Frontend Development</h4>
+        <p>I build responsive and visually clean web interfaces that deliver a smooth user experience. My focus is on creating fast, interactive, and user-friendly applications using modern frontend technologies.</p>
+    </div>
+     <div class="skill-icons">
+                    <i class="bx bxl-react"></i>
+                    <i class="bx bxl-angular"></i>
+                    <i class="bx bxl-vuejs"></i>
+                    <i class='bx bxl-html5'></i>
+
+
+                </div>
+</div>
+
+<div class="services-box">
+    <div class="services-info">
+        <i class="bx bx-server"></i>
+        <h4>Backend Development</h4>
+        <p>I build secure and scalable backend systems that handle data efficiently and keep applications running smoothly. My work focuses on creating reliable APIs and managing databases to support fast, seamless performance.</p>
+        
+    </div>
+     <div class="skill-icons">
+                    <i class="bx bxl-nodejs"></i>
+                    <i class="bx bxl-flask"></i>
+                    <i class="bx bxl-python"></i>
+                    <i class="bx bxl-java"></i>
+                </div>
+</div>
+
+
+        </div>
+
+    </section>
+
+    <section class="Projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+       <div class="projects-box" style="margin-top: -300px;">
+
+    <!-- <div class="project-card">
+        <div class="project-image">
+            <img src="image1.png" alt="Project 1">
+        </div>
+        <h3>Travel Guide</h3>
+        <p>I created a smart and user-friendly Bus Ticket Booking application that allows users to book bus tickets easily and track the bus location in real-time using an interactive map. The app focuses on improving travel convenience and providing a smooth booking experience.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank" class="btn" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.725-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.381 1.235-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.242 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.805 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+        </a>
+    </div> -->
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/image2.png" alt="Project 2">
+        </div>
+        <h3>Netflix</h3>
+        <p>I built a modern Netflix-style movie streaming application that allows users to browse movies, watch trailers, and explore categories in a clean, responsive UI. The app replicates the core design and user experience of Netflix using real movie data.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.725-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.381 1.235-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.242 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.805 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+
+        </a>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/image3.png" alt="Project 3">
+        </div>
+        <h3>Food Ordering</h3>
+        <p>I developed a modern food delivery application that allows users to browse restaurants, explore menus, place food orders, and track delivery status in real-time. The goal of this project is to provide a simple, fast, and user-friendly food ordering experience.</p>
+        <a href="https://github.com/yourusername/project3" target="_blank" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.725-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.381 1.235-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.242 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.805 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+        </a>
+    </div>
+
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/image4.png" alt="Project 4">
+        </div>
+        <h3>ToDo List</h3>
+        <p>I created a simple and efficient To-Do List application that helps users manage daily tasks with ease. The app allows users to add, edit, delete, and mark tasks as completed in a clean and user-friendly interface.</p>
+        <a href="https://github.com/yourusername/project4" target="_blank" class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.725-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.495.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.467-2.381 1.235-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.242 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.805 5.625-5.475 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <selection class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span>
+        </h2>
+
+        <form action="#" style="margin-top: -300px;">
+        
+        <div class="input-group">
+            <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            </div>
+        
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            </div>
+
+
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"> </textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </div>
+        </form>
+
+
+
+    </selection>
+
+    <footer class="footer">
+        <div class="social-icon">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+
+            </div>
+            <ul class="list">
+                <li> 
+                     <a href="#">FAQ</a>
+                </li>
+
+                <li> 
+                     <a href="services">Service</a>
+                </li>
+
+                <li> 
+                     <a href="about">About Me</a>
+                </li>
+
+                <li> 
+                     <a href="projects">Projects</a>
+                </li>
+
+                <li> 
+                     <a href="contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                © Ashik SS | All Rights Reserved
+            </p>
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

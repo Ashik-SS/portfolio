@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <h1>Images</h1>
+   <div class="image-container" >
+    <img src="image1.png" alt="Image 1">
+    <img src="image2.png" alt="Image 2">
+    <img src="image3.png" alt="Image 3">
+
+</div>
+<div>
+    <button class="submit">submit</button>
+</div>
+<style>
+    .image-container{
+         display: flex;
+        justify-content: space-between; 
+        align-items: center;   
+        gap: 10px;
+        min-height: 10vh; 
+        margin: 10px;
+        padding: 10px;      
+    }
+
+    .image-container img {
+        width: 400px;
+        height: auto;
+        border-radius: 8px;
+
+    }
+    .submit{
+        align-items: center;
+        border: none;
+        height: 40px;
+        width: 900px;
+        border-radius: 2px;
+        font-weight: bold;
+        position: center;
+        margin-bottom: 1050px;
+        position: relative;
+        left: 500px;
+        top: 30px;
+    }
+
+    @media(max-width:480px){
+        .image-container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        
+    }
+
+    
+</style>
+    
+</body>
+</html>

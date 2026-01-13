@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="Name" placeholder="name"><br><br>
+    <input type="email" id="email" placeholder="email"><br><br>
+    <button onclick="f()">Submit</button><br><br>
+
+    <script>
+        function f(){
+            var a = document.getElementById("Name").value;
+            var b = document.getElementById("email").value;
+                if(a==""){
+            alert("enter the name");
+            }
+            
+            else if(b==""){
+                alert("Enter the email");
+            }
+
+        }
+        
+
+ </script>
+<!-- // function myfun() {
+//             let name = prompt('Username :');
+//             let pass = prompt('Password :');
+//             pass = parseInt(pass);
+
+//             if (name==='Ashik'&& pass === 1234 ){
+//                     alert('Welcome')
+//                 }
+//             else{
+//                 alert('Unauthorized login')
+//             }
+//         }
+//     myfun() -->
+
+
+
+
+   
+    
+</body>
+</html>
+<!-- 
+
+
+
+
+    // function grade(){
+    //     let score=prompt('Enter your mark :');
+    //     score=parseInt(score)
+    //     if (score >=85){
+    //         alert('Grade : A')
+    //     }
+    //     else if (score >=70 && score<85){
+    //         alert('Grade : B')
+    //     }
+    //     else if (score >=50 && score<70){
+    //         alert('Grade : C')
+    //     }
+    //     else if (score >=35 && score<50){
+    //         alert('Grade : D')
+    //     }
+    //     else{
+    //         document.write('You Fail')
+    //     }
+    // }
+    // grade(); -->
